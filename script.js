@@ -1,0 +1,31 @@
+let adjective;
+let noun;
+let verb;
+let place;
+let adjective2;
+let noun2;
+
+adjective = "Sparkling";
+noun = "Teacup";
+verb = "Excited";
+place = "Whispering Woods";
+adjective2 = "Gigantic";
+noun2 = "Moonbeams"
+
+
+let firstStory;
+
+firstStory = "Once upon a time, there was a(n) " + adjective + " " + noun + " who loved to eat " + noun2 + ". The " +noun+ " lived in a " +place+ " and had " +adjective2+ " nostrils that blew fire when it was " +verb+ ".";
+console.log("First story: " + firstStory);
+
+// second story
+
+adjective = "Invisible";
+noun = "Whisper";
+verb = "Startled";
+place = "Cobwebbed Attic";
+adjective2 = "Tiny";
+noun2 = "Forgotten Memories"
+
+let secondStory = "Once upon a time, there was a(n) " +adjective+ " " +noun+ " who loved to eat " +noun2+ ". The " +noun+ " lived in a " +place+ " and had " +adjective2+ " nostrils that blew fire when it was " +verb+ ".";
+console.log("Second story: " + secondStory);
