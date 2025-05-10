@@ -40,3 +40,8 @@ let book = {
 
 let message = `The book that I'm reading is ${book.title} and the author of it is ${book.author}. The book has ${book.pages} pages.`;
 console.log(`` + message + ` Is the book still available? ${book.isAvailable}.`);
+
+// You can change the value inside the properties of an Object by calling the objectName.propertyName = `newPropertyValue`
+const userSettings = { theme: 'dark' };
+userSettings.theme = 'light'; 
+console.log(userSettings);
