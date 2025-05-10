@@ -29,3 +29,14 @@ noun2 = "Forgotten Memories"
 
 let secondStory = "Once upon a time, there was a(n) " +adjective+ " " +noun+ " who loved to eat " +noun2+ ". The " +noun+ " lived in a " +place+ " and had " +adjective2+ " nostrils that blew fire when it was " +verb+ ".";
 console.log("Second story: " + secondStory);
+
+// object in javascript
+let book = {
+    title: `"All Great is him"`,
+    author: `Sheina`,
+    pages: `2000`,
+    isAvailable: false,
+};
+
+let message = `The book that I'm reading is ${book.title} and the author of it is ${book.author}. The book has ${book.pages} pages.`;
+console.log(`` + message + ` Is the book still available? ${book.isAvailable}.`);
