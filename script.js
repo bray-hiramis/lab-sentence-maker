@@ -45,3 +45,5 @@ console.log(`` + message + ` Is the book still available? ${book.isAvailable}.`)
 const userSettings = { theme: 'dark' };
 userSettings.theme = 'light'; 
 console.log(userSettings);
+
+console.log(typeof null);
